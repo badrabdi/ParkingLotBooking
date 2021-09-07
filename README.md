@@ -12,9 +12,9 @@ Navigate to */ParkingApp/src/application*
 2. run ```java Main```
 
 #### Login
-Additional system admin account cannot be made
-***Username:*** admin 
-***Password:*** admin
+Additional system admin account cannot be made\
+***Username:*** admin\
+***Password:*** admin\
 
 
 

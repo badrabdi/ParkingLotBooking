@@ -13,8 +13,7 @@ Navigate to */ParkingApp/src/application*
 
 #### Login
 Additional ***System admin account*** cannot be made\
-**Username:** admin\
-**Password:** admin\
+***System Administrator Account*** Info: **Username:** admin **Password:** admin\
 
 
 

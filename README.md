@@ -7,4 +7,8 @@ Navigate to */ParkingApp/src/application*
 2. run ```java Main```
 
 
+## Documentation
+UML diagram and IEEE specifications can be found in */Specifications*
+
+
 

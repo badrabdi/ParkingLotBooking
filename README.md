@@ -13,10 +13,12 @@ Navigate to */ParkingApp/src/application*
 
 #### Login
 Additional ***System admin account*** cannot be made\
-***System Administrator Account*** Info: **Username:** admin **Password:** admin\
+***System Administrator Account*** Info: **Username:** admin **Password:** admin
 
 **Parking Authority** accounts can only be made by **System Administrator**\
-***Parking Authority Account*** Info: **Username:** rayred **Password:** 123\
+***Parking Authority Account*** Info: **Username:** rayred **Password:** 123
+
+Users accounts can be created as wanted.
 
 
 

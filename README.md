@@ -1,6 +1,6 @@
 # ParkingLotBooking
 Parking Lot Booking Application using IEEE specifications, built using JavaFX
-<img src="./VennFX/src/main/resources/VennFX_Logo.png" alt="VennFX"/>
+<img src="./ParkingApp/src//resources/login.png" alt="Login Page"/>
 
 ## To Run
 Navigate to */ParkingApp/src/application* 

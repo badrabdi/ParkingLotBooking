@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.creditCardVerify">
+   <center>
+      <VBox alignment="CENTER_RIGHT" prefHeight="193.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="fName" promptText="first name" />
+            <TextField fx:id="lName" promptText="last name" />
+            <TextField fx:id="creditNum" promptText="credit card number 16 digits" />
+            <TextField fx:id="expDate" promptText="(MM/YY)" />
+            <TextField fx:id="cvv" promptText="(3 Digit Code)" />
+            <Label fx:id="warning" alignment="BOTTOM_CENTER" prefHeight="17.0" prefWidth="200.0" textFill="RED">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </center>
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/tpa.png" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER" layoutX="14.0" layoutY="83.0" prefHeight="200.0" prefWidth="180.0">
+               <children>
+                  <Label text="First Name">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label text="Last Name">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label text="Credit Card Number">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label text="Expiry Date ">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BOTTOM_RIGHT" text="Security Code ">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <Label fx:id="total" layoutX="72.0" layoutY="319.0" prefHeight="17.0" prefWidth="109.0" text="TOTAL:" />
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="confirm" layoutX="40.0" layoutY="296.0" mnemonicParsing="false" onAction="#confirmPurchase" prefHeight="71.0" prefWidth="146.0" style="-fx-background-color: #0f910f;" text="Confirm Purchase" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <ListView fx:id="list" layoutY="56.0" prefHeight="200.0" prefWidth="200.0" />
+            <Label layoutX="6.0" layoutY="26.0" text="Click CTRL to select multiple spots" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

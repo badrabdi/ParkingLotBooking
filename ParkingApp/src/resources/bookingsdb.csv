@@ -1,0 +1,6 @@
+Parking Spot Number,Booking ID,Payment Status,Approved Status,Customer ID,Start Time,Duration,Plate Number,Date
+1,5aa9f4d3-0c58-4b47-a2b9-3d36019750f8,not-paid,not-approved,96071b3e-252d-4dfb-923b-55cd0c270bab,1:00,15,,2021-06-15
+2,71692c89-4a0f-4b4f-bd3c-3a6e6790579d,not-paid,not-approved,96071b3e-252d-4dfb-923b-55cd0c270bab,2:00,15,,2021-06-15
+3,2c313935-838e-409c-8446-50f08c9f7f90,not-paid,not-approved,96071b3e-252d-4dfb-923b-55cd0c270bab,3:00,15,,2021-06-15
+4,e969eb9e-fe35-4c0b-8522-41a515c56f7b,not-paid,not-approved,96071b3e-252d-4dfb-923b-55cd0c270bab,4:00,15,,2021-06-15
+5,38a4ef2f-3f27-4251-9704-0506f8e331d2,not-paid,not-approved,96071b3e-252d-4dfb-923b-55cd0c270bab,5:00,15,,2021-06-15
